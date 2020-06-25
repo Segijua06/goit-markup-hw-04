@@ -53,6 +53,11 @@ ul {
     margin: 0px auto 0px auto;   
 }
 
+.nav-list .link:hover,
+.nav-list .link:focus {
+    padding-bottom: 28px;
+    border-bottom: 2px solid var(--main-2-color);
+}
 .link:hover,
 .link:focus {
     color: var(--main-2-color);
@@ -129,6 +134,7 @@ header {
 .nav-item:not(:last-child) {
     margin-right: 50px;
 }
+
 
 .nav-item,
 .contacts-item {
@@ -303,6 +309,7 @@ header {
     padding: 0px; 
     border-radius: 50%;
     border: 0px;
+    fill: var(--main-3-color);
 }
 
 .social-icon:not(:last-child) {
