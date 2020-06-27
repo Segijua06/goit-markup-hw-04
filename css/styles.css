@@ -256,6 +256,10 @@ header {
     background-color: var(--main-6-color);
 }
 
+.icon {
+    width: 70px;
+    height: 70px;
+}
 .features-item-title {
     font-size: 14px;
     line-height: 16px;
