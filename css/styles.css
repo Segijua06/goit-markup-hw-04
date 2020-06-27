@@ -306,10 +306,19 @@ header {
     justify-content: center;
     width: 48px;
     height: 48px;
-    padding: 0px; 
+    padding: 0px;   
     border-radius: 50%;
     border: 0px;
     fill: var(--main-3-color);
+}
+.social-icon {
+    /* width: 20px;
+    height: 20px; */
+    fill: #afb1b8;
+}
+.social-item a:hover .social-logo,
+.social-item a:focus .social-logo {
+  fill: var(--main-3-color);
 }
 
 .social-icon:not(:last-child) {
