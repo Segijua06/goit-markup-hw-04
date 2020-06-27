@@ -251,9 +251,14 @@ header {
 }
 
 .item-image {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 25px 100px 25px 100px;
-    margin: 0px 0px 30px 0px;
     background-color: var(--main-6-color);
+    width: 270px;
+    height: 120px;
 }
 
 .icon {
@@ -264,7 +269,8 @@ header {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .item-text {
     font-size: 14px;
@@ -275,10 +281,10 @@ header {
             /* Features container end */
 
             /* Tech skills container start */
-.tech-skills {
-    /* text-align: center; */
-    /* min-width: 386px; */
-}
+/* .tech-skills {
+    text-align: center;
+    min-width: 386px;
+} */
 .tech-skills-list {
     display: flex;
 }
@@ -358,11 +364,36 @@ header {
 
 
             /* Clients start*/
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+.clients-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px; 
+    height: 90px;
+    border: 1px solid var(--main-9-color);
+    border-radius: 4px;           
+}
+.clients-icon {
+    fill: var(--main-9-color);
+}
+
+.clients-item a:hover,
+.clients-item a:focus {
+    border-color: var(--main-2-color);
+}
+.clients-item a:hover .clients-icon,
+.clients-item a:focus .clients-icon {
+    fill: var(--main-2-color);
+}
 /* .clients {
     text-align: center;
 } */
 
-.clients-list {
+/* .clients-list {
     display: flex;
     justify-content: space-between;
 }
@@ -388,7 +419,7 @@ header {
 .clients-item a:hover .clients-icon,
 .clients-item a:focus .clients-icon {
   fill: var(--main-2-color);
-}
+} */
             /* Clients end */
 
 
