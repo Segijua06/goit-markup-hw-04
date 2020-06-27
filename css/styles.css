@@ -290,7 +290,7 @@ header {
 
             /* Our team container start */
 .our-team {
-    /* text-align: center; */
+    text-align: center;
     background-color: var(--main-6-color);
     /* min-width: 1600px;
     height: 702px; */
