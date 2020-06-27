@@ -8,6 +8,8 @@
     --main-5-color: #2F303A;
     --main-6-color: #F5F4FA;
     --main-7-color: rgba(255, 255, 255, 0.4);
+    --main-8-color: rgba(255, 255, 255, 0.1);
+    --main-9-color: #AFB1B8;
 }
 
 html {
@@ -156,6 +158,28 @@ header {
 .contacts-item a {
     color: var(--main-4-color);
 }
+
+.contacts-item a:hover,
+.contacts-item a:focus {
+  color: var(--main-2-color);
+  fill: var(--main-2-color);
+}
+
+.mail {
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+}
+.phone {
+    width: 10px;
+    height: 15px;
+    fill: currentColor;
+}
+
+/* .mail:hover,
+.mail:focus {
+    fill: var(--main-2-color);
+} */
         /* Header end*/
 
 
@@ -279,79 +303,54 @@ header {
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 .team-item-title {
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .team-item-description {
-    margin-top: 10px;
-    margin-bottom: 16px;
+    padding-top: 10px;
+    padding-bottom: 16px;
 }
-.social-icon-container {
-    /* margin-bottom: 24px; */
-    padding-left: 32px;
-    padding-right: 32px;
-}
-.social-icon-f {
-    display: flex;
-}
-.page-footer .social-icon-f {
-    padding-top: 20px;
-}
-.s-i-f {
-    background-color: rgba(255, 255, 255, 0.1);
-}
+
 .social {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .social-item a {
+}
+.our-team .social {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+}
+.social-item a {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     width: 44px;
     height: 44px;
-  }
-  .social-icon {
-    width: 20px;
-    height: 20px;
-    fill: #afb1b8;
-  }
-  .social-item a:hover .social-logo,
-  .social-item a:focus .social-logo {
-    fill: #ffffff;
-  }
-/* .social-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    padding: 0px;   
-    border-radius: 50%;
-    border: 0px;
-    fill: var(--main-3-color);
 }
 .social-icon {
     width: 20px;
     height: 20px;
-    fill: #afb1b8;
+    fill: var(--main-9-color);
 }
-.social-item a:hover .social-logo,
-.social-item a:focus .social-logo {
-  fill: var(--main-3-color);
+.social-item a:hover .social-icon,
+.social-item a:focus .social-icon {
+    fill: var(--main-3-color);
+}
+.page-footer .social-icon {
+    fill: var(--main-3-color);
 }
 
-.social-icon:not(:last-child) {
-    margin-right: 10px;
+.page-footer .social-item a {
+    background-color: var(--main-8-color);
 }
-.social-icon:hover,
-.social-icon:focus {    
-    padding: 12px;    
+.social-item a:hover,
+.social-item a:focus {
     background-color: var(--main-2-color);
-    border-radius: 50%;
-} */
+}
+
+
             /* Our team container end */
 
 
@@ -359,6 +358,34 @@ header {
             /* Clients start*/
 .clients {
     text-align: center;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+.clients-item {    
+    width: 170px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--main-9-color);    
+    border-radius: 4px;    
+}
+
+.clients-icon {
+    fill: var(--main-9-color);
+}
+.clients-item:hover,
+.clients-item:focus {
+  border-color: var(--main-2-color);
+  fill: var(--main-2-color);
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--main-2-color);
 }
             /* Clients end */
 
@@ -403,7 +430,16 @@ header {
 .join-social-network {    
     padding-right: 94px;
 }
+.page-footer .social {
+    padding-top: 20px;
+}
+.page-footer .social-item:not(:last-child) {
+    margin-right: 10px ;
+}
             /* Our team container end */
+
+
+
 
             /* Portfolio start */
 

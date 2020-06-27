@@ -30,12 +30,18 @@
                 </ul>
                 <ul class="contacts-list">
                     <li class="contacts-item">
-                        <a href="mailto:info@devstudio.com" class="link">
-                        <img src="./images/mail.svg" alt="конверт"> info@devstudio.com </a>
+                        <a href="mailto:info@devstudio.com">
+                            <svg class="mail">
+                                <use href="./images/icons.svg#mail"></use>
+                            </svg>
+                         info@devstudio.com </a>
                     </li>
                     <li class="contacts-item">
-                        <a href="tel:+380961111111" class="link">
-                        <img src="./images/phone.svg" alt="phone"> +38 096 111 11 11 </a>
+                        <a href="tel:+380961111111">
+                            <svg class="phone">
+                                <use href="./images/icons.svg#phone"></use>
+                            </svg>
+                         +38 096 111 11 11 </a>
                     </li>
                 </ul>
             </div> 
@@ -62,7 +68,9 @@
                 <ul class="features-list">
                     <li class="features-item">
                         <div class="item-image">
-                            <img src="./images/antena.svg" alt="Спутниковая тарелка">
+                            <svg>
+                                <use href="./images/icons.svg#antena.svg"></use>
+                            </svg>
                         </div>
                         <h3 class="features-item-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                         <p class="item-text">Идейные соображения, а также начало повседневной работыпо форматированию позиции.</p>
@@ -70,7 +78,9 @@
 
                     <li class="features-item">
                         <div class="item-image">
-                            <img src="./images/clock.svg" alt="Будильник">
+                            <svg>
+                                <use href="./images/icons.svg#clock.svg"></use>
+                            </svg>
                         </div>                        
                         <h3 class="features-item-title">ПУНКТУАЛЬНОСТЬ</h3>
                         <p class="item-text">Задача организации, в особености же рамки и место обучения кадров влечет за собой.</p>
@@ -78,7 +88,9 @@
 
                     <li class="features-item">
                         <div class="item-image">
-                            <img src="./images/diagram.svg" alt="Диаграма">
+                            <svg>
+                                <use href="./images/icons.svg#diagram.svg"></use>
+                            </svg>
                         </div>
                         <h3 class="features-item-title">ПЛАНИРОВАНИЕ</h3>
                         <p class="item-text">Равним образом консультация с широким активом в значительной степени обуславнивает.</p>
@@ -86,7 +98,9 @@
 
                     <li class="features-item">
                         <div class="item-image">
-                            <img src="./images/astronaut.svg" alt="Астронавт">
+                            <svg>
+                                <use href="./images/icons.svg#astronaut.svg"></use>
+                            </svg>
                         </div>
                         <h3 class="features-item-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                         <p class="item-text">Значимость этих проблем настолько очевидна, что реальзация плановых заданий.</p>
@@ -168,7 +182,7 @@
                     </li>
                     <li class="team-item">
                         <img src="./images/Marta_Stewart.jpg" alt="Ольга Иванова">
-                        <div>
+                        <div class="team-item-info">
                             <h3 class="team-item-title">Ольга Иванова</h3>
                             <p class="team-item-description">Frontend Developer</p>
                             <ul class="social">
@@ -205,28 +219,76 @@
                     </li>
                     <li class="team-item">
                         <img src="./images/Robert_Jakis.jpg" alt="Андрей Шевченко">
-                        <div>
+                        <div class="team-item-info">
                             <h3 class="team-item-title">Андрей Шевченко</h3>
                             <p class="team-item-description">Marketing</p>
-                            <div class="social-icon-f social-icon-container">
-                                <a class="social-icon" href=""><img src="./images/instagram.svg" alt="instagram"></a>
-                                <a class="social-icon" href=""><img src="./images/twitter.svg" alt="twitter"></a>
-                                <a class="social-icon" href=""><img src="./images/facebook.svg" alt="facebook"></a>
-                                <a class="social-icon" href=""><img src="./images/linkedin.svg" alt="linkedin"></a>
-                            </div>
+                            <ul class="social">
+                                <li class="social-item">
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="team-item">
                         <img src="./images/Martin_Doe.jpg" alt="Иван Николаев">
-                        <div>
+                        <div class="team-item-info">
                             <h3 class="team-item-title">Иван Николаев</h3>
                             <p class="team-item-description">UI Designer</p>
-                            <div class="social-icon-f social-icon-container">
-                                <a class="social-icon" href=""><img src="./images/instagram.svg" alt="instagram"></a>
-                                <a class="social-icon" href=""><img src="./images/twitter.svg" alt="twitter"></a>
-                                <a class="social-icon" href=""><img src="./images/facebook.svg" alt="facebook"></a>
-                                <a class="social-icon" href=""><img src="./images/linkedin.svg" alt="linkedin"></a>
-                            </div>
+                            <ul class="social">
+                                <li class="social-item">
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                 </ul>
@@ -238,22 +300,46 @@
                 <h2 class="title">Постоянные клиенты</h2>
                 <ul class="clients-list">
                     <li class="clients-item">
-                        <img src="./images/Client1.svg" alt="">
+                        <a href="">
+                            <svg class="clients-icon">
+                                <use href="./images/icons.svg#logo-Client1"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <img src="./images/Client2.svg" alt="">
+                        <a href="">
+                            <svg class="clients-icon">
+                                <use href="./images/icons.svg#logo-Client2"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <img src="./images/Client3.svg" alt="">
+                        <a href="">
+                            <svg class="clients-icon">
+                                <use href="./images/icons.svg#logo-Client3"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <img src="./images/Client4.svg" alt="">
+                        <a href="">
+                            <svg class="clients-icon">
+                                <use href="./images/icons.svg#logo-Client4"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <img src="./images/Client5.svg" alt="">
+                        <a href="">
+                            <svg class="clients-icon">
+                                <use href="./images/icons.svg#logo-Client5"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <img src="./images/Client6.svg" alt="">
+                        <a href="">
+                            <svg class="clients-icon">
+                                <use href="./images/icons.svg#logo-Client6"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -275,12 +361,36 @@
                     </div>
                     <div class="join-social-network">
                         <b class="inverse">ПРИСОЕДИНЯЙТЕСЬ</b>
-                        <div class="social-icon-f">
-                            <a class="social-icon s-i-f" href=""><img src="./images/f-instagram.svg" alt="instagram"></a>
-                            <a class="social-icon s-i-f" href=""><img src="./images/f-twitter.svg" alt="twitter"></a>
-                            <a class="social-icon s-i-f" href=""><img src="./images/f-facebook.svg" alt="facebook"></a>
-                            <a class="social-icon s-i-f" href=""><img src="./images/f-linkedin.svg" alt="linkedin"></a>
-                        </div>
+                        <ul class="social">
+                            <li class="social-item">
+                                <a href="">
+                                    <svg class="social-icon">
+                                        <use href="./images/icons.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="">
+                                    <svg class="social-icon">
+                                        <use href="./images/icons.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="">
+                                    <svg class="social-icon">
+                                        <use href="./images/icons.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="">
+                                    <svg class="social-icon">
+                                        <use href="./images/icons.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="subscribe">
