@@ -76,6 +76,7 @@ footer .container {
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 /* img {
@@ -125,8 +126,7 @@ header {
 .nav-list,
 .contacts-list,
 .features-list,
-.team-list,
-.clients-list {
+.team-list {
     display: flex;
 }
 .contacts-list {
@@ -276,7 +276,7 @@ header {
 
             /* Tech skills container start */
 .tech-skills {
-    text-align: center;
+    /* text-align: center; */
     /* min-width: 386px; */
 }
 .tech-skills-list {
@@ -290,7 +290,7 @@ header {
 
             /* Our team container start */
 .our-team {
-    text-align: center;
+    /* text-align: center; */
     background-color: var(--main-6-color);
     /* min-width: 1600px;
     height: 702px; */
@@ -353,27 +353,25 @@ header {
 .social-item a:focus {
     background-color: var(--main-2-color);
 }
-
-
             /* Our team container end */
 
 
 
             /* Clients start*/
-.clients {
+/* .clients {
     text-align: center;
-}
+} */
 
 .clients-list {
     display: flex;
     justify-content: space-between;
 }
-.clients-item {    
-    width: 170px;
-    height: 90px;
+.clients-item {   
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    width: 170px;
+    height: 90px;    
     border: 1px solid var(--main-9-color);    
     border-radius: 4px;    
 }
@@ -381,14 +379,14 @@ header {
 .clients-icon {
     fill: var(--main-9-color);
 }
-.clients-item:hover,
-.clients-item:focus {
+.clients-item a:hover,
+.clients-item a:focus {
   border-color: var(--main-2-color);
   fill: var(--main-2-color);
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-item a:hover .clients-icon,
+.clients-item a:focus .clients-icon {
   fill: var(--main-2-color);
 }
             /* Clients end */
