@@ -19,7 +19,7 @@ html {
 *,
 ::before,
 ::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 h1,
 h2,
@@ -28,8 +28,8 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0px;
-  margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -67,8 +67,8 @@ ul {
 
 header .container,
 footer .container {
-  padding-top: 0px;
-  padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .title {
@@ -159,8 +159,8 @@ header {
 
 .contacts-item a:hover,
 .contacts-item a:focus {
-  color: var(--main-2-color);
-  fill: var(--main-2-color);
+    color: var(--main-2-color);
+    fill: var(--main-2-color);
 }
 
 .mail {
@@ -183,7 +183,7 @@ header {
     /* padding-top: 200px;
     padding-bottom: 280px; */
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
-     url("../images/main.jpg");
+        url("../images/main.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -423,37 +423,6 @@ header {
 .clients-item a:focus .clients-icon {
     fill: var(--main-2-color);
 }
-/* .clients {
-    text-align: center;
-} */
-
-/* .clients-list {
-    display: flex;
-    justify-content: space-between;
-}
-.clients-item {   
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    width: 170px;
-    height: 90px;    
-    border: 1px solid var(--main-9-color);    
-    border-radius: 4px;    
-}
-
-.clients-icon {
-    fill: var(--main-9-color);
-}
-.clients-item a:hover,
-.clients-item a:focus {
-  border-color: var(--main-2-color);
-  fill: var(--main-2-color);
-}
-
-.clients-item a:hover .clients-icon,
-.clients-item a:focus .clients-icon {
-  fill: var(--main-2-color);
-} */
             /* Clients end */
 
 
