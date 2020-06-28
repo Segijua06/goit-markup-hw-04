@@ -175,11 +175,6 @@ header {
     height: 15px;
     fill: currentColor;
 }
-
-/* .mail:hover,
-.mail:focus {
-    fill: var(--main-2-color);
-} */
         /* Header end*/
 
 
@@ -187,14 +182,13 @@ header {
 .hero {
     align-items: center;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 280px;
+    /* padding-top: 200px;
+    padding-bottom: 280px; */
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
      url("../images/main.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     margin-left: auto;
     margin-right: auto;
     max-width: 1600px;
@@ -205,12 +199,14 @@ header {
   }
 
 .hero-title {
+    padding-top: 200px;
+    margin: 0 0 30px 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 0.06em;
     color: var(--main-3-color);
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     text-transform: uppercase;
 }
 
@@ -291,6 +287,38 @@ header {
 .tech-skills-item:not(:last-child){
     margin-right: 30px;
 }
+.tech-skills-item {
+    display: flex;
+    align-items: flex-end
+}
+.tech-skills-item-title {    
+    background: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    text-align: center;
+    color: var(--main-3-color);
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+/* .box {
+    width: 370px;
+    height: 274px;    
+} */
+.box1 {
+    width: 370px;
+    height: 274px;
+    background-image: url(../images/box1.jpg);
+}
+.box2 {
+    width: 370px;
+    height: 274px;
+    background-image: url(../images/box2.jpg);
+}
+.box3 {
+    width: 370px;
+    height: 274px;
+    background-image: url(../images/box3.jpg);
+}
+
             /* Tech skills container end */
 
 
