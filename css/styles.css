@@ -154,6 +154,8 @@ header {
 }
 
 .contacts-item a {
+    display: flex;
+    align-items: center;
     color: var(--main-4-color);
 }
 
@@ -172,6 +174,12 @@ header {
     width: 10px;
     height: 15px;
     fill: currentColor;
+}
+
+.icon-header {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
 }
         /* Header end*/
 
